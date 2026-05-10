@@ -1,0 +1,46 @@
+/*
+TODO ☐目次のカード化
+TODO ☐ナビバーの設定
+TODO ☐このコードが必要か確認する.separate-nav-main{
+display:flex;
+flex-direction:column;
+}
+*/
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin-left:25vh;
+}
+
+
+.portfolio{
+margin-top:30px;
+}
+
+nav{
+position:fixed;
+background:rgb(235, 235, 241);
+left:0;
+top:0;
+width:100px;
+height:100vh;
+display:flex;
+flex-direction:column;
+}
+
+.navbar-ul{
+margin-top:10px;
+list-style:none;
+padding-left:0px;
+}
+
+.navbar-li{
+margin:10px;
+}
+
+.navbar-a{
+text-decoration:none;
+}
