@@ -44,3 +44,11 @@ margin:10px;
 .navbar-a{
 text-decoration:none;
 }
+
+@media screen and (max-width:768px){
+/*--------------------------------------*/
+body{
+margin-left:8px;
+}
+/*--------------------------------------*/
+}
